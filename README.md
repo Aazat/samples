@@ -5,6 +5,7 @@
   ## Using [`tf.keras.utils.image_dataset_from_directory(directory=,labels= 'inferred', batch_size= 32, image_size= (256,256))  `](https://www.tensorflow.org/api_docs/python/tf/keras/utils/image_dataset_from_directory)
   
   ## Iterating data in tf.dataset
+
    ``` 
    for batch in dataset :  
           process_batch 
@@ -40,3 +41,7 @@
         dataset = tf.data.Dataset.from_tensor_slices(([1,2],[3,4],[5,6]))
  ```
    would produce `[(1,3,5), (2,4,6)]` instead of `[1,2], [3,4], [5,6]`  
+
+# [tf.data.Dataset.list_files](https://www.tensorflow.org/api_docs/python/tf/data/Dataset#list_files)
+
+        tf.data.Dataset.list_files(file_pattern)
