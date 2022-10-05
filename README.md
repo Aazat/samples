@@ -15,7 +15,7 @@
 ## Standardizing images
   ### Using normalization layer
    ` normalization_layer = tf.keras.layers.Rescaling(1./255) `
-    Then
-    1. ` normalized_ds = ds.map(lambda x1,x2... : normalization_layer([x1,x2...]), remaining) `
+    Then      
+    1. ` normalized_ds = ds.map(lambda x1,x2... : normalization_layer([x1,x2...]), remaining) `      
     2. Include normalization layer in model itself for better deployment
     
