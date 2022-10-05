@@ -5,8 +5,10 @@
   ## Using [`tf.keras.utils.image_dataset_from_directory(directory=,labels= 'inferred', batch_size= 32, image_size= (256,256),  `](https://www.tensorflow.org/api_docs/python/tf/keras/utils/image_dataset_from_directory)
   
   ## Iterating data in tf.dataset
-   ``` for batch in dataset : process_batch ```   which would be a tensor.
-   Use tensor.numpy() and to use numpy methods and processings.
+   ``` for batch in dataset :  
+          process_batch ```   
+   Which would be a tensor.
+   Use tensor.numpy() to use numpy methods and processings.
             
 ## Standardizing images
   ### Using normalization layer
