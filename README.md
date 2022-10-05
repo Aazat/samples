@@ -9,6 +9,12 @@
    for batch in dataset :  
           process_batch 
    ```
+   or  
+   ```
+    for batch in dataset.take(1):
+        process(batch)
+   ```
+   
    Which would be a tensor.
    Use tensor.numpy() to use numpy methods and processings.
             
