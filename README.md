@@ -2,7 +2,7 @@
 
 # [Data pipelines with tf.data](https://cs230.stanford.edu/blog/datapipeline/#best-practices) api
   ##  1. Loading and preprocessing images in tf.data
-  ## Using [`tf.keras.utils.image_dataset_from_directory(directory=,labels= 'inferred', batch_size= 32, image_size= (256,256))  `](https://www.tensorflow.org/api_docs/python/tf/keras/utils/image_dataset_from_directory)
+  ### Using [`tf.keras.utils.image_dataset_from_directory(directory=,labels= 'inferred', batch_size= 32, image_size= (256,256))  `](https://www.tensorflow.org/api_docs/python/tf/keras/utils/image_dataset_from_directory)
   
   ## Iterating data in tf.dataset
 
