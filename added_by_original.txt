@@ -1,4 +1,4 @@
 This file is added by original
 This file is changed, these are my local changes 
-these will be pushed chages by origina to cause some conflict
-original has some unsaved changes when pulling
+these will be pushed chages by original to cause some conflict
+these will be pushed by other to cause conflict
